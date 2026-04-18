@@ -126,7 +126,7 @@ class Editor(LabelFrame):
 
         # ... (以下搜尋邏輯保持不變，但將 Entry 提示改為中文) ...
         # [省略部分重複邏輯]
- options = config.routine.get_all_components()
+        options = config.routine.get_all_components()
         var = tk.StringVar(value=tuple(options.keys()))
 
         def update_search(*_):
