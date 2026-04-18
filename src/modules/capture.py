@@ -76,7 +76,7 @@ class Capture:
         mss.windows.CAPTUREBLT = 0
         while True:
             # Calibrate screen capture
-            handle = user32.FindWindowW(None, 'MapleStory')
+            handle = user32.FindWindowW(None, 'MapleRoyals Apr 14 2026 WZ')
             rect = wintypes.RECT()
             user32.GetWindowRect(handle, ctypes.pointer(rect))
             rect = (rect.left, rect.top, rect.right, rect.bottom)
