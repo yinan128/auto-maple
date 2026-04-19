@@ -135,7 +135,7 @@ class Capture:
 
                     if not self.ready:
                         self.ready = True
-                    time.sleep(0.001)
+                    time.sleep(0.02) # 60ftp下没必要1ms采集一次
 
     def screenshot(self, delay=1):
         try:
